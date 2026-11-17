@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --canvas: #fffdf7;
+    --surface: #ffffff;
+    --surface-muted: #faf6eb;
+    --ink: #1c1917;
+    --ink-muted: #57534e;
+    --border-subtle: #e7e5e4;
+    --amber-primary: #facc15;
+    --amber-hover: #f59e0b;
+    --amber-deep: #b45309;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--canvas);
+    color: var(--ink);
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--ink);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), system-ui, sans-serif;
+  }
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

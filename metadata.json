@@ -1,0 +1,6 @@
+{
+  "name": "PawBeacon — Animal-Care Discovery Platform",
+  "description": "Find trusted veterinary clinics, 24/7 animal hospitals, boarding facilities, diagnostic labs, pet ambulances, and animal NGOs near you.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
